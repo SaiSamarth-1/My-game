@@ -68,7 +68,7 @@ function spawnEnemies(){
   if (frameCount % 60 === 0) {
     var enemy = createSprite(0, 120,40,40);
     enemy.x = Math.round(random(100,width));
-    enemy.velocityY = 3;
+    enemy.velocityY = 7;
 
     enemy.shapeColor = "purple";
     
